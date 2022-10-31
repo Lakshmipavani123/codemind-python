@@ -1,17 +1,16 @@
-m=int(input())
-n=int(input())
-s=0
-p=0
-for i in range(1,m):
-    if m%i==0:
-        s+=i
-#print(s)
-for i in range(1,n):
-    if n%i==0:
-        p+=i
-#print(p)
-if m==p and n==s:
+a=int(input())
+b=int(input())
+pfsa=0
+pfsb=0
+for i in range(1,a):
+    if a%i==0:
+        pfsa+=i
+for i in range(1,b):
+    if b%i==0:
+        pfsb+=i
+if pfsa==b and pfsb==a:
     print("Amicable")
 else:
     print("Not Amicable")
-        
+    
+               
