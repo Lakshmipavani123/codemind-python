@@ -9,3 +9,4 @@ for j in range((k//2),k):
     s+=m[j]
 print(c)
 print(s)
+
